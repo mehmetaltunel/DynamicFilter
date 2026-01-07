@@ -49,7 +49,6 @@ public static IQueryable<T> ApplyDynamicFilters<T>(
     IList<DynamicFilterParams> filters)
 ```
 
-**Yaptığı İşlemler:**
 1. Reflection ile property bulur (case-insensitive)
 2. Tip dönüşümü yapar: string -> int, Guid, DateTime, decimal, bool
 3. Expression Tree oluşturur
@@ -80,7 +79,6 @@ public static IQueryable<T> ApplyDynamicFilters<T>(
 - JSON array: `[{...}, {...}]`
 - Fiplatform array: `[[["Code","contains","X"],"and",[...]]]`
 
-### B. DEĞİŞEN DOSYALAR
 
 #### 2.1 PaginationFilterBase.cs
 
@@ -92,7 +90,6 @@ public static IQueryable<T> ApplyDynamicFilters<T>(
 public virtual List<DynamicFilterParams> DynamicFilters { get; set; }
 ```
 
-**DEĞİŞEN METODLAR:**
 
 `ApplyFilterTo<TEntity>(IQueryable<TEntity> query)`:
 ```csharp
