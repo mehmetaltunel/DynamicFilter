@@ -1,9 +1,3 @@
-# DYNAMIC FILTERING - DETAYLI SUNUM DOKÜMANI
-
-## 1. YAPILAN DEĞİŞİKLİKLER (GIT CHANGES)
-
-### A. YENİ DOSYALAR (4 ADET)
-
 #### 1.1 DynamicFilter/DynamicFilterParams.cs
 **Amaç:** Filter parametrelerini taşıyan model ve operation enum'ları
 
